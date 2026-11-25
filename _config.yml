@@ -1,0 +1,14 @@
+title: Engineering & Design Portfolio
+url: https://maldyy.github.io
+baseurl: ''
+markdown: kramdown
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ''
+      type: projects
+    values:
+      layout: project
